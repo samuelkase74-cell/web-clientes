@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reformas Integrales Castilla | Reformas y Fontanería en Madrid</title>
+<meta name="description" content="Reformas integrales, fontanería y electricidad en Madrid. Presupuesto gratis, garantía de 5 años y respuesta en menos de 24 horas.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{display:['"Plus Jakarta Sans"','sans-serif'],body:['Inter','sans-serif']},colors:{brand:{50:'#fff7ed',100:'#ffedd5',500:'#f97316',600:'#ea580c',700:'#c2410c'},ink:'#0f172a'}}}}
+</script>
+<style>
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif}
+h1,h2,h3,h4,.font-display{font-family:'Plus Jakarta Sans',sans-serif}
+details summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+details[open]{box-shadow:0 10px 30px -12px rgba(15,23,42,.15)}
+.reveal{animation:up .8s ease both}
+@keyframes up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body class="text-slate-700 bg-white antialiased">
+
+<!-- HEADER -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
+    <a href="#inicio" class="flex items-center gap-3">
+      <span class="w-11 h-11 rounded-xl bg-brand-500 text-white flex items-center justify-center text-xl"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+      <span class="font-display font-extrabold text-ink leading-tight text-lg">Reformas Integrales<br><span class="text-brand-600 text-sm font-semibold">Castilla · Madrid</span></span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-8 text-sm font-medium">
+      <a href="#servicios" class="hover:text-brand-600 transition">Servicios</a>
+      <a href="#trabajos" class="hover:text-brand-600 transition">Trabajos</a>
+      <a href="#nosotros" class="hover:text-brand-600 transition">Nosotros</a>
+      <a href="#resenas" class="hover:text-brand-600 transition">Reseñas</a>
+      <a href="#faq" class="hover:text-brand-600 transition">FAQ</a>
+      <a href="#contacto" class="hover:text-brand-600 transition">Contacto</a>
+    </nav>
+    <a href="tel:+34910000000" class="bg-brand-500 hover:bg-brand-600 text-white font-display font-bold px-5 py-3 rounded-full text-sm shadow-lg shadow-brand-500/30 transition flex items-center gap-2">
+      <i class="fa-solid fa-phone"></i><span class="hidden sm:inline">910 000 000</span><span class="sm:hidden">Llamar</span>
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="relative min-h-screen flex items-center pt-20">
+  <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=2000&q=80" alt="Profesional realizando una reforma en una vivienda" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-ink/95 via-ink/80 to-ink/30"></div>
+  <div class="relative max-w-7xl mx-auto px-5 py-20 reveal">
+    <span class="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-sm px-4 py-2 rounded-full backdrop-blur mb-6">
+      <i class="fa-solid fa-star text-brand-500"></i> 4,9/5 en más de 400 reseñas
+    </span>
+    <h1 class="font-display font-extrabold text-white text-4xl sm:text-5xl lg:text-7xl leading-[1.05] max-w-3xl">Tu casa reformada <span class="text-brand-500">sin sorpresas</span>, a tiempo y con garantía.</h1>
+    <p class="mt-6 text-lg sm:text-xl text-slate-200 max-w-xl">Reformas integrales, fontanería y electricidad en Madrid. Presupuesto cerrado y por escrito, equipo propio y 5 años de garantía en todos los trabajos.</p>
+    <div class="mt-10 flex flex-col sm:flex-row gap-4">
+      <a href="tel:+34910000000" class="bg-brand-500 hover:bg-brand-600 text-white font-display font-bold px-8 py-4 rounded-full text-center shadow-xl shadow-brand-500/30 transition"><i class="fa-solid fa-phone mr-2"></i>Llamar ahora</a>
+      <a href="#contacto" class="bg-white hover:bg-slate-100 text-ink font-display font-bold px-8 py-4 rounded-full text-center transition"><i class="fa-solid fa-file-invoice mr-2"></i>Pedir presupuesto</a>
+    </div>
+    <ul class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-slate-200 text-sm">
+      <li><i class="fa-solid fa-check text-brand-500 mr-2"></i>Presupuesto gratis</li>
+      <li><i class="fa-solid fa-check text-brand-500 mr-2"></i>Sin compromiso</li>
+      <li><i class="fa-solid fa-check text-brand-500 mr-2"></i>Urgencias 24 h</li>
+    </ul>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="bg-ink text-white">
+  <div class="max-w-7xl mx-auto px-5 py-12 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+    <div><div class="font-display font-extrabold text-4xl text-brand-500">+18</div><p class="text-sm text-slate-300 mt-1">años de experiencia</p></div>
+    <div><div class="font-display font-extrabold text-4xl text-brand-500">+2.500</div><p class="text-sm text-slate-300 mt-1">clientes satisfechos</p></div>
+    <div><div class="font-display font-extrabold text-4xl text-brand-500">5 años</div><p class="text-sm text-slate-300 mt-1">de garantía por escrito</p></div>
+    <div><div class="font-display font-extrabold text-4xl text-brand-500">&lt; 24 h</div><p class="text-sm text-slate-300 mt-1">tiempo de respuesta</p></div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="max-w-2xl mx-auto text-center mb-16">
+      <span class="text-brand-600 font-display font-bold uppercase tracking-widest text-sm">Servicios</span>
+      <h2 class="font-display font-extrabold text-ink text-3xl sm:text-5xl mt-3">Todo lo que tu hogar necesita, en un solo equipo</h2>
+      <p class="mt-4 text-slate-600">Un único interlocutor, un presupuesto cerrado y profesionales cualificados en cada oficio.</p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-house-chimney"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Reformas integrales</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Redistribución, albañilería, suelos, pintura y acabados. Gestionamos licencias y coordinamos todos los gremios.</p>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-bath"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Reformas de baños</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Cambio de bañera por plato de ducha, alicatados y sanitarios. Baño completo listo en solo 7 días laborables.</p>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-kitchen-set"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Cocinas a medida</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Diseño, mobiliario, encimeras y electrodomésticos. Cocinas funcionales y modernas adaptadas a tu estilo de vida.</p>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-faucet-drip"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Fontanería y urgencias</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Fugas, atascos, calentadores y renovación de tuberías. Servicio de urgencias con llegada en menos de 2 horas.</p>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-bolt"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Electricidad</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Boletines, cuadros eléctricos, iluminación LED y puntos de recarga. Instaladores autorizados y certificados.</p>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-2xl hover:border-brand-500/40 transition duration-300">
+        <div class="w-14 h-14 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-500 group-hover:text-white transition"><i class="fa-solid fa-paint-roller"></i></div>
+        <h3 class="font-display font-bold text-ink text-xl mb-3">Pintura y alisado</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">Eliminación de gotelé, pintura de interior y fachadas. Acabados impecables con materiales de primeras marcas.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="trabajos" class="py-24">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="max-w-2xl mb-14">
+      <span class="text-brand-600 font-display font-bold uppercase tracking-widest text-sm">Trabajos realizados</span>
+      <h2 class="font-display font-extrabold text-ink text-3xl sm:text-5xl mt-3">Resultados que se ven (y se disfrutan)</h2>
+    </div>
+    <div class="grid md:grid-cols-4 gap-5 auto-rows-[260px]">
+      <figure class="relative overflow-hidden rounded-2xl md:col-span-2 md:row-span-2 group">
+        <img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1200&q=80" alt="Cocina moderna reformada" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-ink/90 to-transparent text-white"><b class="font-display">Cocina abierta · Chamberí</b><br><span class="text-sm text-slate-300">Reforma integral en 5 semanas</span></figcaption>
+      </figure>
+      <figure class="relative overflow-hidden rounded-2xl md:col-span-2 group">
+        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80" alt="Baño reformado con ducha de obra" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-ink/90 to-transparent text-white"><b class="font-display">Baño con ducha a ras de suelo</b><br><span class="text-sm text-slate-300">Salamanca</span></figcaption>
+      </figure>
+      <figure class="relative overflow-hidden rounded-2xl group">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Salón reformado luminoso" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-ink/90 to-transparent text-white text-sm"><b class="font-display">Salón y suelos nuevos</b></figcaption>
+      </figure>
+      <figure class="relative overflow-hidden rounded-2xl group">
+        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=900&q=80" alt="Fontanero profesional trabajando" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-ink/90 to-transparent text-white text-sm"><b class="font-display">Instalación de fontanería</b></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-16 items-center">
+    <div class="relative">
+      <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=80" alt="Equipo de profesionales de la construcción" class="rounded-3xl shadow-2xl w-full h-[480px] object-cover">
+      <div class="absolute -bottom-6 -right-2 sm:-right-6 bg-brand-500 text-white rounded-2xl p-6 shadow-xl">
+        <div class="font-display font-extrabold text-4xl">2006</div><div class="text-sm">Reformando Madrid</div>
+      </div>
+    </div>
+    <div>
+      <span class="text-brand-600 font-display font-bold uppercase tracking-widest text-sm">Sobre nosotros</span>
+      <h2 class="font-display font-extrabold text-ink text-3xl sm:text-5xl mt-3 mb-6">Un negocio familiar con el oficio en las manos</h2>
+      <p class="mb-4 text-slate-600">Empezamos en 2006 con una furgoneta y un objetivo claro: tratar cada vivienda como si fuera la nuestra. Hoy somos un equipo de 25 profesionales, pero seguimos trabajando igual: hablando claro, cumpliendo plazos y cuidando cada detalle.</p>
+      <p class="mb-8 text-slate-600">No subcontratamos. Albañiles, fontaneros, electricistas y pintores son parte de nuestra plantilla, lo que nos permite garantizar calidad y precio cerrado.</p>
+      <ul class="space-y-4">
+        <li class="flex gap-4"><i class="fa-solid fa-circle-check text-brand-500 text-xl mt-1"></i><span><b class="text-ink">Presupuesto cerrado:</b> lo que firmas es lo que pagas.</span></li>
+        <li class="flex gap-4"><i class="fa-solid fa-circle-check text-brand-500 text-xl mt-1"></i><span><b class="text-ink">Limpieza diaria:</b> dejamos tu casa ordenada cada tarde.</span></li>
+        <li class="flex gap-4"><i class="fa-solid fa-circle-check text-brand-500 text-xl mt-1"></i><span><b class="text-ink">Garantía de 5 años:</b> si algo falla, volvemos sin coste.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas" class="py-24">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-brand-600 font-display font-bold uppercase tracking-widest text-sm">Reseñas verificadas</span>
+      <h2 class="font-display font-extrabold text-ink text-3xl sm:text-5xl mt-3">Lo que dicen nuestros vecinos</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <blockquote class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
+        <div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p class="text-slate-600 mb-6">“Reformaron mi baño en una semana y quedó mejor de lo que esperaba. Puntuales, limpios y el precio final fue el acordado.”</p>
+        <footer class="flex items-center gap-3"><span class="w-11 h-11 rounded-full bg-brand-100 text-brand-700 font-bold flex items-center justify-center">MG</span><div><b class="text-ink block text-sm">María González</b><span class="text-xs text-slate-500"><i class="fa-solid fa-circle-check text-green-500"></i> Cliente verificado · Chamberí</span></div></footer>
+      </blockquote>
+      <blockquote class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
+        <div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <p class="text-slate-600 mb-6">“Tuve una fuga un domingo por la noche y a la hora y media ya estaban en casa. Profesionales y muy amables. Totalmente recomendables.”</p>
+        <footer class="flex items-center gap-3"><span class="w-11 h-11 rounded-full bg-brand-100 text-brand-700 font-bold flex items-center justify-center">JM</span><div><b class="text-ink block text-sm">Javier Martín</b><span class="text-xs text-slate-500"><i class="fa-solid fa-circle-check text-green-500"></i> Cliente verificado · Vallecas</span></div></footer>
+      </blockquote>
+      <blockquote class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm hover:shadow-xl transition">
+        <div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid
