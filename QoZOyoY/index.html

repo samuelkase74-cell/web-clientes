@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FontaVigo | Fontanería general en Vigo – Atascos e instalaciones</title>
+<meta name="description" content="Fontanería general en Vigo: desatascos, instalaciones y reparaciones. Presupuesto gratis y atención rápida. Llama al +34 654 963 258.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+      colors: { brand: { 50:'#eff9ff',100:'#dff2ff',200:'#b8e8ff',500:'#0ea5e9',600:'#0284c7',700:'#0369a1',900:'#0c2d48' } }
+    }
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+  .glass { background: rgba(255,255,255,.75); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+  .hero-bg { background: radial-gradient(60% 60% at 80% 0%, #bae6fd 0%, transparent 60%), radial-gradient(50% 50% at 0% 30%, #e0f2fe 0%, transparent 60%), #fff; }
+  .reveal { opacity: 0; transform: translateY(24px); transition: all .7s ease; }
+  .reveal.show { opacity: 1; transform: none; }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .chev { transform: rotate(180deg); }
+  @keyframes pulseRing { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,.5);} 100% { box-shadow: 0 0 0 20px rgba(37,211,102,0);} }
+  .wa { animation: pulseRing 2s infinite; }
+  @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+  .float { animation: float 5s ease-in-out infinite; }
+</style>
+</head>
+<body class="font-sans text-slate-700 bg-white antialiased">
+
+<!-- NAV -->
+<header class="fixed top-0 inset-x-0 z-50 glass border-b border-slate-200/60">
+  <nav class="max-w-7xl mx-auto px-5 h-16 flex items-center justify-between">
+    <a href="#inicio" class="flex items-center gap-2 font-extrabold text-xl text-brand-900">
+      <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-white grid place-items-center"><i class="fa-solid fa-droplet"></i></span>
+      Fonta<span class="text-brand-600">Vigo</span>
+    </a>
+    <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <li><a href="#servicios" class="hover:text-brand-600 transition">Servicios</a></li>
+      <li><a href="#nosotros" class="hover:text-brand-600 transition">Nosotros</a></li>
+      <li><a href="#resenas" class="hover:text-brand-600 transition">Reseñas</a></li>
+      <li><a href="#faq" class="hover:text-brand-600 transition">FAQ</a></li>
+    </ul>
+    <div class="flex items-center gap-3">
+      <a href="tel:+34654963258" class="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-brand-900"><i class="fa-solid fa-phone text-brand-600"></i>654 96 32 58</a>
+      <a href="#contacto" class="hidden sm:inline-flex px-5 py-2.5 rounded-full bg-brand-900 text-white text-sm font-semibold hover:bg-brand-700 transition">Presupuesto</a>
+      <button id="menuBtn" aria-label="Menú" class="md:hidden w-10 h-10 grid place-items-center rounded-lg hover:bg-slate-100"><i class="fa-solid fa-bars text-lg"></i></button>
+    </div>
+  </nav>
+  <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 bg-white px-5 py-4 space-y-1 text-base font-medium">
+    <a href="#servicios" class="block py-2.5">Servicios</a>
+    <a href="#nosotros" class="block py-2.5">Nosotros</a>
+    <a href="#resenas" class="block py-2.5">Reseñas</a>
+    <a href="#faq" class="block py-2.5">FAQ</a>
+    <a href="#contacto" class="block mt-2 text-center py-3 rounded-full bg-brand-600 text-white font-semibold">Pedir presupuesto</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="inicio" class="hero-bg pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="reveal">
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-brand-200 text-brand-700 text-sm font-semibold shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Fontanero en Vigo · Servicio urgente
+      </span>
+      <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-brand-900 leading-[1.08]">
+        Fontanería rápida y <span class="bg-gradient-to-r from-brand-500 to-brand-700 bg-clip-text text-transparent">sin sorpresas</span> en Vigo
+      </h1>
+      <p class="mt-6 text-lg text-slate-600 max-w-xl">Desatascos, instalaciones y reparaciones con acabado limpio y precio cerrado. Llegamos cuando nos necesitas y lo dejamos funcionando a la primera.</p>
+      <div class="mt-9 flex flex-col sm:flex-row gap-4">
+        <a href="#contacto" class="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-brand-500 to-brand-700 text-white font-semibold shadow-lg shadow-brand-500/30 hover:-translate-y-0.5 hover:shadow-xl transition">Presupuesto gratis <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="tel:+34654963258" class="inline-flex justify-center items-center gap-2 px-8 py-4 rounded-full bg-white border border-slate-200 text-brand-900 font-semibold hover:border-brand-500 transition"><i class="fa-solid fa-phone text-brand-600"></i> Llamar ahora</a>
+      </div>
+      <ul class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm font-medium text-slate-600">
+        <li><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i>Presupuesto sin compromiso</li>
+        <li><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i>Garantía en cada trabajo</li>
+        <li><i class="fa-solid fa-circle-check text-emerald-500 mr-2"></i>Atención 7 días</li>
+      </ul>
+    </div>
+    <div class="relative reveal">
+      <div class="absolute -inset-6 bg-gradient-to-tr from-brand-200 to-transparent rounded-[3rem] blur-2xl opacity-70"></div>
+      <div class="relative rounded-[2rem] bg-gradient-to-br from-brand-600 to-brand-900 p-8 sm:p-12 text-white shadow-2xl">
+        <i class="fa-solid fa-wrench text-7xl sm:text-8xl text-white/20 absolute right-8 top-8 float"></i>
+        <p class="text-brand-200 text-sm font-semibold uppercase tracking-widest">Respuesta media</p>
+        <p class="text-6xl font-extrabold mt-2">60<span class="text-3xl"> min</span></p>
+        <p class="mt-3 text-brand-100 max-w-xs">En urgencias de atascos y fugas dentro de Vigo y alrededores.</p>
+        <div class="mt-8 grid grid-cols-2 gap-4">
+          <div class="bg-white/10 rounded-2xl p-4"><p class="text-2xl font-bold">4,9/5</p><p class="text-xs text-brand-100">Valoración media</p></div>
+          <div class="bg-white/10 rounded-2xl p-4"><p class="text-2xl font-bold">+1.200</p><p class="text-xs text-brand-100">Trabajos hechos</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="max-w-2xl mx-auto text-center reveal">
+      <p class="text-brand-600 font-semibold text-sm uppercase tracking-widest">Servicios</p>
+      <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-brand-900">Todo en fontanería, bien hecho</h2>
+      <p class="mt-4 text-slate-600">Soluciones para hogares, comunidades y locales en Vigo.</p>
+    </div>
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <article class="reveal group p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(15,23,42,.12)] hover:-translate-y-1 hover:shadow-xl transition">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-xl group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-toilet"></i></div>
+        <h3 class="mt-6 text-xl font-bold text-brand-900">Desatascos</h3>
+        <p class="mt-2 text-slate-600">Fregaderos, inodoros, bajantes y arquetas. Con cámara y maquinaria profesional.</p>
+      </article>
+      <article class="reveal group p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(15,23,42,.12)] hover:-translate-y-1 hover:shadow-xl transition">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-xl group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3 class="mt-6 text-xl font-bold text-brand-900">Instalaciones</h3>
+        <p class="mt-2 text-slate-600">Tuberías, grifería, sanitarios, termos y calderas con materiales de calidad.</p>
+      </article>
+      <article class="reveal group p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(15,23,42,.12)] hover:-translate-y-1 hover:shadow-xl transition">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-xl group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-droplet"></i></div>
+        <h3 class="mt-6 text-xl font-bold text-brand-900">Fugas de agua</h3>
+        <p class="mt-2 text-slate-600">Localizamos y reparamos pérdidas con el mínimo de obra posible.</p>
+      </article>
+      <article class="reveal group p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(15,23,42,.12)] hover:-translate-y-1 hover:shadow-xl transition">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-xl group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-bath"></i></div>
+        <h3 class="mt-6 text-xl font-bold text-brand-900">Reformas de baño</h3>
+        <p class="mt-2 text-slate-600">Cambio de bañera por plato de ducha y reforma integral de fontanería.</p>
+      </article>
+      <article class="reveal group p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_10px_40px_-15px_rgba(15,23,42,.12)] hover:-translate-y-1 hover:shadow-xl transition">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-xl group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-fire-flame-simple"></i></div>
+        <h3 class="mt-6 text-xl font-bold text-brand-900">Agua caliente</h3>
+        <p class="mt-2 text-slate-600">Reparación y sustitución de termos eléctricos, calentadores y calderas.</p>
+      </article>
+      <article class="reveal group p-8 rounded-3xl bg-gradient-to-br from-brand-600 to-brand-900 text-white shadow-xl">
+        <div class="w-14 h-14 rounded-2xl bg-white/15 grid place-items-center text-xl"><i class="fa-solid fa-bolt"></i></div>
+        <h3 class="mt-6 text-xl font-bold">Urgencias</h3>
+        <p class="mt-2 text-brand-100">¿Fuga o atasco ahora mismo? Te atendemos con prioridad.</p>
+        <a href="tel:+34654963258" class="mt-5 inline-flex items-center gap-2 font-semibold underline underline-offset-4">Llamar <i class="fa-solid fa-arrow-right"></i></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-14 items-center">
+    <div class="reveal">
+      <p class="text-brand-600 font-semibold text-sm uppercase tracking-widest">Sobre nosotros</p>
+      <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-brand-900">Un fontanero de confianza en tu barrio</h2>
+      <p class="mt-5 text-slate-600 leading-relaxed">En FontaVigo trabajamos con una idea simple: explicar el problema con claridad, dar un precio justo antes de empezar y dejar la zona de trabajo impecable. Sin letra pequeña y con garantía por escrito.</p>
+      <ul class="mt-6 space-y-3">
+        <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-brand-600"></i>Precio cerrado antes de empezar</li>
+        <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-brand-600"></i>Profesionales con experiencia y seguro de responsabilidad civil</li>
+        <li class="flex gap-3"><i class="fa-solid fa-check mt-1 text-brand-600"></i>Limpieza completa tras cada servicio</li>
+      </ul>
+    </div>
+    <div class="grid grid-cols-2 gap-5 reveal">
+      <div class="p-7 rounded-3xl bg-white shadow-sm border border-slate-100"><p class="text-4xl font-extrabold text-brand-600"><span class="count" data-to="12">0</span>+</p><p class="mt-1 text-sm text-slate-600">Años de experiencia</p></div>
+      <div class="p-7 rounded-3xl bg-white shadow-sm border border-slate-100"><p class="text-4xl font-extrabold text-brand-600"><span class="count" data-to="1200">0</span>+</p><p class="mt-1 text-sm text-slate-600">Trabajos realizados</p></div>
+      <div class="p-7 rounded-3xl bg-white shadow-sm border border-slate-100"><p class="text-4xl font-extrabold text-brand-600"><span class="count" data-to="98">0</span>%</p><p class="mt-1 text-sm text-slate-600">Clientes satisfechos</p></div>
+      <div class="p-7 rounded-3xl bg-white shadow-sm border border-slate-100"><p class="text-4xl font-extrabold text-brand-600"><span class="count" data-to="60">0</span>min</p><p class="mt-1 text-sm text-slate-600">Respuesta en urgencias</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-5">
+    <div class="max-w-2xl mx-auto text-center reveal">
+      <p class="text-brand-600 font-semibold text-sm uppercase tracking-widest">Reseñas</p>
+      <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-brand-900">Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="mt-14 grid md:grid-cols-3 gap-6">
+      <figure class="reveal p-8 rounded-3xl bg-slate-50 border border-slate-100">
+        <div class="text-amber-400"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 text-slate-700">“Tenía un atasco de madrugada y en menos de una hora estaba resuelto. Muy amables y precio justo.”</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="w-11 h-11 rounded-full bg-brand-600 text-white grid place-items-center font-bold">M</span><div><p class="font-semibold text-brand-900">María G.</p><p class="text-sm text-slate-500">Vigo centro</p></div></figcaption>
+      </figure>
+      <figure class="reveal p-8 rounded-3xl bg-slate-50 border border-slate-100">
+        <div class="text-amber-400"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 text-slate-700">“Instalaron el baño completo con mucho cuidado. Puntuales, limpios y con un presupuesto que se cumplió al euro.”</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="w-11 h-11 rounded-full bg-brand-600 text-white grid place-items-center font-bold">C</span><div><p class="font-semibold text-brand-900">Carlos P.</p><p class="text-sm text-slate-500">Teis</p></div></figcaption>
+      </figure>
+      <figure class="reveal p-8 rounded-3xl bg-slate-50 border border-slate-100">
+        <div class="text-amber-400"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        <blockquote class="mt-4 text-slate-700">“Encontraron una fuga que otros no veían. Explicaron todo con claridad. Los recomiendo sin dudar.”</blockquote>
+        <figcaption class="mt-6 flex items-center gap-3"><span class="w-11 h-11 rounded-full bg-brand-600 text-white grid place-items-center font-bold">L</span><div><p class="font-semibold text-brand-900">Lucía F.</p><p class="text-sm text-slate-500">Coia</p></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-24 bg-slate-50">
+  <div class="max-w-3xl mx-auto px-5">
+    <div class="text-center reveal">
+      <p class="text-brand-600 font-semibold text-sm uppercase tracking-widest">FAQ</p>
+      <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-brand-900">Preguntas frecuentes</h2>
+    </div>
+    <div class="mt-12 space-y-4">
+      <details class="reveal group bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+        <summary class="flex justify-between items-center gap-4 cursor-pointer font-semibold text-brand-900">¿Cuánto cuesta un desatasco?<i class="fa-solid fa-chevron-down chev text-brand-600 transition"></i></summary>
+        <p class="mt-4 text-slate-600">Depende de la zona y la gravedad del atasco. Te damos un precio cerrado tras conocer el caso, siempre antes de empezar.</p>
+      </details>
+      <details class="reveal group bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+        <summary class="flex justify-between items-center gap-4 cursor-pointer font-semibold text-brand-900">
