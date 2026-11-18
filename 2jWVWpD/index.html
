@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fontanería y Reformas Levante | Valencia · Urgencias 24h y presupuesto sin compromiso</title>
+<meta name="description" content="Fontaneros y reformas integrales en Valencia. Urgencias 24h, presupuesto gratis y garantía por escrito. Llama ahora.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+tailwind.config = {
+  theme: { extend: {
+    fontFamily: { display: ['"Plus Jakarta Sans"','sans-serif'], body: ['Inter','sans-serif'] },
+    colors: { brand: { 50:'#eff8ff', 100:'#dbeefe', 500:'#0b7de0', 600:'#0764b8', 700:'#064f92', 900:'#0a2540' }, accent:'#ff7a1a' }
+  } }
+}
+</script>
+<style>
+  body{font-family:'Inter',sans-serif;color:#1e293b}
+  h1,h2,h3,h4,.font-display{font-family:'Plus Jakarta Sans',sans-serif}
+  details summary::-webkit-details-marker{display:none}
+  details[open] summary .chev{transform:rotate(180deg)}
+  details[open]{box-shadow:0 10px 30px -12px rgba(10,37,64,.25)}
+  .reveal{animation:fadeUp .9s ease both}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  @keyframes pulseRing{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}100%{box-shadow:0 0 0 20px rgba(37,211,102,0)}}
+  .wa{animation:pulseRing 2s infinite}
+</style>
+</head>
+<body class="bg-white antialiased">
+
+<!-- CABECERA -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur-lg border-b border-slate-200/70">
+  <div class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
+    <a href="#inicio" class="flex items-center gap-3">
+      <span class="w-11 h-11 rounded-xl bg-gradient-to-br from-brand-500 to-brand-900 text-white grid place-items-center text-lg shadow-lg"><i class="fa-solid fa-droplet"></i></span>
+      <span class="font-display font-extrabold text-lg leading-none text-brand-900">Fontanería y Reformas<br><span class="text-brand-500 text-sm font-semibold tracking-wide">LEVANTE · Valencia</span></span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
+      <a href="#servicios" class="hover:text-brand-600 transition">Servicios</a>
+      <a href="#trabajos" class="hover:text-brand-600 transition">Trabajos</a>
+      <a href="#nosotros" class="hover:text-brand-600 transition">Nosotros</a>
+      <a href="#resenas" class="hover:text-brand-600 transition">Opiniones</a>
+      <a href="#faq" class="hover:text-brand-600 transition">FAQ</a>
+      <a href="#contacto" class="hover:text-brand-600 transition">Contacto</a>
+    </nav>
+    <a href="tel:+34600123456" class="inline-flex items-center gap-2 bg-accent hover:bg-orange-600 text-white font-display font-bold px-5 py-3 rounded-full shadow-lg shadow-orange-500/30 transition text-sm">
+      <i class="fa-solid fa-phone"></i><span class="hidden sm:inline">600 123 456</span><span class="sm:hidden">Llamar</span>
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=2000&q=80" alt="Fontanero profesional reparando una tubería" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-900/80 to-brand-900/30"></div>
+  <div class="relative max-w-7xl mx-auto px-5 py-20 grid lg:grid-cols-12">
+    <div class="lg:col-span-7 reveal">
+      <span class="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-2 rounded-full backdrop-blur mb-6">
+        <span class="w-2 h-2 rounded-full bg-green-400"></span> Técnicos disponibles ahora · Urgencias 24h
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.08]">Resolvemos tu avería hoy.<br><span class="text-accent">Sin sorpresas</span> en la factura.</h1>
+      <p class="mt-6 text-lg text-slate-200 max-w-xl">Fontanería, calefacción y reformas integrales en Valencia y área metropolitana. Llegamos en menos de 60 minutos, presupuesto cerrado y garantía por escrito de hasta 5 años.</p>
+      <div class="mt-9 flex flex-col sm:flex-row gap-4">
+        <a href="tel:+34600123456" class="inline-flex justify-center items-center gap-3 bg-accent hover:bg-orange-600 text-white font-display font-bold px-8 py-4 rounded-full shadow-xl shadow-orange-500/30 transition"><i class="fa-solid fa-phone-volume"></i> Llamar ahora</a>
+        <a href="#contacto" class="inline-flex justify-center items-center gap-3 bg-white/10 hover:bg-white hover:text-brand-900 text-white border border-white/40 font-display font-bold px-8 py-4 rounded-full backdrop-blur transition"><i class="fa-solid fa-file-invoice"></i> Pedir presupuesto</a>
+      </div>
+      <ul class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-200">
+        <li><i class="fa-solid fa-circle-check text-green-400 mr-2"></i>Presupuesto gratis</li>
+        <li><i class="fa-solid fa-circle-check text-green-400 mr-2"></i>Garantía escrita</li>
+        <li><i class="fa-solid fa-circle-check text-green-400 mr-2"></i>Pago tras el trabajo</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIANZA -->
+<section class="relative -mt-14 z-10 px-5">
+  <div class="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl shadow-slate-900/10 grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-slate-100">
+    <div class="p-7 text-center"><div class="font-display text-4xl font-extrabold text-brand-600">18+</div><p class="text-sm text-slate-500 mt-1">Años de experiencia</p></div>
+    <div class="p-7 text-center"><div class="font-display text-4xl font-extrabold text-brand-600">6.500</div><p class="text-sm text-slate-500 mt-1">Intervenciones realizadas</p></div>
+    <div class="p-7 text-center"><div class="font-display text-4xl font-extrabold text-brand-600">4,9<i class="fa-solid fa-star text-amber-400 text-2xl ml-1"></i></div><p class="text-sm text-slate-500 mt-1">Valoración media</p></div>
+    <div class="p-7 text-center"><div class="font-display text-4xl font-extrabold text-brand-600">&lt;60'</div><p class="text-sm text-slate-500 mt-1">Tiempo medio de llegada</p></div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-24 px-5">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14">
+      <p class="text-brand-500 font-display font-bold tracking-widest text-xs uppercase mb-3">Servicios y tarifas</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-900">Todo lo que tu hogar necesita, con precios claros</h2>
+      <p class="mt-4 text-slate-600">Tarifas orientativas con IVA incluido. Te confirmamos el precio cerrado antes de empezar.</p>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <article class="group bg-white border border-slate-200 rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl hover:border-transparent transition duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <h3 class="font-display font-bold text-xl text-brand-900">Urgencias 24 horas</h3>
+        <p class="text-slate-600 mt-3 text-sm leading-relaxed">Fugas, atascos, inundaciones y roturas de tuberías. Festivos y fines de semana incluidos.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-500">Desde <span class="font-display text-2xl font-extrabold text-brand-900">59 €</span></p><a href="tel:+34600123456" class="text-sm font-bold text-accent hover:underline">Llamar <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl hover:border-transparent transition duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-faucet-drip"></i></div>
+        <h3 class="font-display font-bold text-xl text-brand-900">Reparación de fontanería</h3>
+        <p class="text-slate-600 mt-3 text-sm leading-relaxed">Grifería, cisternas, desagües, termos y detección de fugas con cámara térmica sin obras.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-500">Desde <span class="font-display text-2xl font-extrabold text-brand-900">45 €</span></p><a href="#contacto" class="text-sm font-bold text-accent hover:underline">Reservar <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl hover:border-transparent transition duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-fire-flame-curved"></i></div>
+        <h3 class="font-display font-bold text-xl text-brand-900">Calefacción y calderas</h3>
+        <p class="text-slate-600 mt-3 text-sm leading-relaxed">Instalación, revisión anual y mantenimiento de calderas de gas, aerotermia y suelo radiante.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-500">Revisión <span class="font-display text-2xl font-extrabold text-brand-900">69 €</span></p><a href="#contacto" class="text-sm font-bold text-accent hover:underline">Reservar <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl hover:border-transparent transition duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-bath"></i></div>
+        <h3 class="font-display font-bold text-xl text-brand-900">Reforma de baños</h3>
+        <p class="text-slate-600 mt-3 text-sm leading-relaxed">Reforma integral llave en mano en 7–10 días: demolición, fontanería, alicatado y mobiliario.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-500">Desde <span class="font-display text-2xl font-extrabold text-brand-900">3.900 €</span></p><a href="#contacto" class="text-sm font-bold text-accent hover:underline">Presupuesto <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+      <article class="group bg-white border border-slate-200 rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl hover:border-transparent transition duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 grid place-items-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition"><i class="fa-solid fa-kitchen-set"></i></div>
+        <h3 class="font-display font-bold text-xl text-brand-900">Reforma de cocinas</h3>
+        <p class="text-slate-600 mt-3 text-sm leading-relaxed">Diseño 3D previo, instalación eléctrica y de agua, mobiliario a medida y encimeras.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-500">Desde <span class="font-display text-2xl font-extrabold text-brand-900">5.500 €</span></p><a href="#contacto" class="text-sm font-bold text-accent hover:underline">Presupuesto <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+      <article class="group bg-brand-900 text-white rounded-3xl p-8 hover:-translate-y-1 hover:shadow-2xl transition duration-300 relative overflow-hidden">
+        <div class="absolute -right-10 -top-10 w-40 h-40 rounded-full bg-accent/20 blur-2xl"></div>
+        <div class="w-14 h-14 rounded-2xl bg-white/10 text-accent grid place-items-center text-2xl mb-6"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3 class="font-display font-bold text-xl">Plan Mantenimiento Hogar</h3>
+        <p class="text-slate-300 mt-3 text-sm leading-relaxed">Revisión anual de instalaciones, prioridad en urgencias y 15 % de descuento en mano de obra.</p>
+        <div class="mt-6 flex items-end justify-between"><p class="text-sm text-slate-300">Desde <span class="font-display text-2xl font-extrabold text-white">9 €/mes</span></p><a href="#contacto" class="text-sm font-bold text-accent hover:underline">Contratar <i class="fa-solid fa-arrow-right ml-1"></i></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="trabajos" class="py-24 px-5 bg-slate-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-brand-500 font-display font-bold tracking-widest text-xs uppercase mb-3">Trabajos realizados</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-900">Resultados que hablan por nosotros</h2>
+    </div>
+    <div class="grid md:grid-cols-4 md:grid-rows-2 gap-5 md:h-[640px]">
+      <figure class="relative md:col-span-2 md:row-span-2 rounded-3xl overflow-hidden group h-80 md:h-auto">
+        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80" alt="Reforma integral de baño moderno" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/75 to-transparent text-white"><strong class="font-display">Baño completo en Ruzafa</strong><br><span class="text-sm text-slate-200">Plato de ducha, mampara y alicatado · 8 días</span></figcaption>
+      </figure>
+      <figure class="relative md:col-span-2 rounded-3xl overflow-hidden group h-64 md:h-auto">
+        <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80" alt="Cocina reformada con isla" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/75 to-transparent text-white"><strong class="font-display">Cocina abierta en Benimaclet</strong><br><span class="text-sm text-slate-200">Instalación completa y mobiliario a medida</span></figcaption>
+      </figure>
+      <figure class="relative rounded-3xl overflow-hidden group h-64 md:h-auto">
+        <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80" alt="Instalación de tuberías de cobre" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-black/75 to-transparent text-white text-sm"><strong class="font-display">Renovación de tuberías</strong></figcaption>
+      </figure>
+      <figure class="relative rounded-3xl overflow-hidden group h-64 md:h-auto">
+        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=900&q=80" alt="Técnico instalando caldera" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+        <figcaption class="absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-black/75 to-transparent text-white text-sm"><strong class="font-display">Instalación de caldera</strong></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE NOSOTROS -->
+<section id="nosotros" class="py-24 px-5">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    <div class="relative">
+      <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1200&q=80" alt="Equipo de fontaneros de Levante" class="rounded-3xl shadow-2xl w-full h-[520px] object-cover">
+      <div class="absolute -bottom-6 -right-2 sm:
