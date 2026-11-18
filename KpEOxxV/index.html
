@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBFY | Diseño de páginas web en menos de 24 h · Vigo</title>
+<meta name="description" content="WEBFY crea tu página web profesional en menos de 24 horas. Diseñador web en Vigo. Diseño limpio, minimalista y orientado a resultados.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{display:['"Plus Jakarta Sans"','sans-serif'],sans:['Inter','sans-serif']},colors:{brand:{DEFAULT:'#4f46e5',dark:'#3730a3',soft:'#eef2ff'}}}}}
+</script>
+<style>
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+.chev{transition:transform .3s}
+.card{transition:all .35s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 40px -15px rgba(79,70,229,.25);border-color:#c7d2fe}
+.gal img{transition:transform .7s ease}
+.gal:hover img{transform:scale(1.07)}
+</style>
+</head>
+<body class="font-sans text-slate-700 bg-white antialiased">
+
+<!-- HEADER -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/85 backdrop-blur border-b border-slate-100">
+<div class="max-w-7xl mx-auto px-5 h-16 md:h-20 flex items-center justify-between">
+<a href="#inicio" class="font-display font-extrabold text-2xl text-slate-900 tracking-tight flex items-center gap-2">
+<span class="w-9 h-9 rounded-xl bg-brand text-white grid place-items-center text-lg">W</span>WEBFY
+</a>
+<nav class="hidden lg:flex items-center gap-8 text-sm font-medium">
+<a href="#servicios" class="hover:text-brand transition">Servicios</a>
+<a href="#trabajos" class="hover:text-brand transition">Trabajos</a>
+<a href="#nosotros" class="hover:text-brand transition">Nosotros</a>
+<a href="#resenas" class="hover:text-brand transition">Reseñas</a>
+<a href="#faq" class="hover:text-brand transition">FAQ</a>
+<a href="#contacto" class="hover:text-brand transition">Contacto</a>
+</nav>
+<a href="tel:+34677326899" class="bg-slate-900 hover:bg-brand text-white text-sm font-semibold px-5 py-2.5 rounded-full transition flex items-center gap-2">
+<i class="fa-solid fa-phone"></i><span class="hidden sm:inline">677 32 68 99</span><span class="sm:hidden">Llamar</span>
+</a>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="relative pt-16 md:pt-20 min-h-screen flex items-center overflow-hidden">
+<div class="absolute inset-0">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2000&q=80" alt="Diseñador web trabajando con código en un portátil" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/30"></div>
+</div>
+<div class="relative max-w-7xl mx-auto px-5 py-20 w-full">
+<div class="max-w-2xl">
+<span class="inline-flex items-center gap-2 bg-brand-soft text-brand text-xs font-semibold px-4 py-2 rounded-full mb-6"><i class="fa-solid fa-bolt"></i> Tu web lista en menos de 24 horas</span>
+<h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 leading-[1.05] tracking-tight">Tu negocio online, <span class="text-brand">hoy mismo</span>.</h1>
+<p class="mt-6 text-lg text-slate-600 leading-relaxed">Diseñamos páginas web limpias, rápidas y pensadas para conseguir clientes. Sin esperas de semanas: en menos de 24 horas tu empresa de Vigo estará en internet.</p>
+<div class="mt-9 flex flex-col sm:flex-row gap-4">
+<a href="tel:+34677326899" class="bg-brand hover:bg-brand-dark text-white font-semibold px-8 py-4 rounded-full text-center transition shadow-lg shadow-brand/30"><i class="fa-solid fa-phone mr-2"></i>Llamar ahora</a>
+<a href="#contacto" class="bg-white border border-slate-200 hover:border-brand hover:text-brand text-slate-900 font-semibold px-8 py-4 rounded-full text-center transition"><i class="fa-regular fa-file-lines mr-2"></i>Pedir presupuesto</a>
+</div>
+<ul class="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-600">
+<li><i class="fa-solid fa-circle-check text-brand mr-2"></i>Sin permanencia</li>
+<li><i class="fa-solid fa-circle-check text-brand mr-2"></i>Diseño a medida</li>
+<li><i class="fa-solid fa-circle-check text-brand mr-2"></i>Trato directo</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- CONFIANZA -->
+<section class="bg-slate-900 text-white">
+<div class="max-w-7xl mx-auto px-5 py-12 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+<div><div class="font-display text-4xl font-extrabold">+8</div><p class="text-slate-400 text-sm mt-1">Años de experiencia</p></div>
+<div><div class="font-display text-4xl font-extrabold">+150</div><p class="text-slate-400 text-sm mt-1">Clientes satisfechos</p></div>
+<div><div class="font-display text-4xl font-extrabold">30 días</div><p class="text-slate-400 text-sm mt-1">Garantía de satisfacción</p></div>
+<div><div class="font-display text-4xl font-extrabold">&lt; 1 h</div><p class="text-slate-400 text-sm mt-1">Tiempo de respuesta</p></div>
+</div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-24 bg-slate-50">
+<div class="max-w-7xl mx-auto px-5">
+<div class="max-w-2xl mb-14">
+<p class="text-brand font-semibold text-sm uppercase tracking-widest">Servicios</p>
+<h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-900 mt-3">Todo lo que tu negocio necesita para destacar online</h2>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-stopwatch"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">Web en 24 horas</h3><p class="text-sm leading-relaxed">Entrega exprés de tu página profesional, con textos, imágenes y estructura listas para publicar.</p></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-pen-ruler"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">Diseño minimalista</h3><p class="text-sm leading-relaxed">Estética limpia y elegante que transmite confianza y pone el foco en lo que realmente vendes.</p></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-mobile-screen"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">Adaptada a móvil</h3><p class="text-sm leading-relaxed">Tu web se ve perfecta en móvil, tablet y ordenador, con carga ultrarrápida.</p></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-magnifying-glass-chart"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">SEO local en Vigo</h3><p class="text-sm leading-relaxed">Optimizamos tu web para que te encuentren los clientes de tu zona en Google.</p></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-cart-shopping"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">Tiendas online</h3><p class="text-sm leading-relaxed">Vende tus productos las 24 horas con una tienda sencilla de gestionar y pagos seguros.</p></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="w-12 h-12 rounded-xl bg-brand-soft text-brand grid place-items-center text-xl mb-5"><i class="fa-solid fa-screwdriver-wrench"></i></div><h3 class="font-display font-bold text-xl text-slate-900 mb-2">Mantenimiento y soporte</h3><p class="text-sm leading-relaxed">Hosting, dominio, cambios y actualizaciones. Tú te dedicas a tu negocio, nosotros a tu web.</p></div>
+</div>
+</div>
+</section>
+
+<!-- GALERÍA -->
+<section id="trabajos" class="py-24">
+<div class="max-w-7xl mx-auto px-5">
+<div class="max-w-2xl mb-14">
+<p class="text-brand font-semibold text-sm uppercase tracking-widest">Trabajos realizados</p>
+<h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-900 mt-3">Proyectos que hablan por sí solos</h2>
+</div>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+<figure class="gal overflow-hidden rounded-2xl"><div class="overflow-hidden aspect-[4/5]"><img loading="lazy" src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80" alt="Diseño web para negocio local" class="w-full h-full object-cover"></div><figcaption class="text-sm text-slate-600 mt-3 font-medium">Web corporativa para despacho</figcaption></figure>
+<figure class="gal overflow-hidden rounded-2xl"><div class="overflow-hidden aspect-[4/5]"><img loading="lazy" src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=800&q=80" alt="Maquetación de página web responsive" class="w-full h-full object-cover"></div><figcaption class="text-sm text-slate-600 mt-3 font-medium">Landing page para hostelería</figcaption></figure>
+<figure class="gal overflow-hidden rounded-2xl"><div class="overflow-hidden aspect-[4/5]"><img loading="lazy" src="https://images.unsplash.com/photo-1561070791-2526d30994b8?auto=format&fit=crop&w=800&q=80" alt="Diseño de interfaz y prototipo web" class="w-full h-full object-cover"></div><figcaption class="text-sm text-slate-600 mt-3 font-medium">Identidad y diseño de interfaz</figcaption></figure>
+<figure class="gal overflow-hidden rounded-2xl"><div class="overflow-hidden aspect-[4/5]"><img loading="lazy" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Panel de analítica web en un portátil" class="w-full h-full object-cover"></div><figcaption class="text-sm text-slate-600 mt-3 font-medium">Tienda online con analítica</figcaption></figure>
+</div>
+</div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="py-24 bg-slate-50">
+<div class="max-w-7xl mx-auto px-5 grid lg:grid-cols-2 gap-14 items-center">
+<div class="relative">
+<img loading="lazy" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80" alt="Equipo trabajando en un proyecto web" class="rounded-3xl w-full object-cover aspect-[4/3] shadow-xl">
+<div class="absolute -bottom-6 -right-2 md:right-6 bg-white rounded-2xl shadow-xl p-5 flex items-center gap-4"><div class="w-12 h-12 rounded-full bg-brand text-white grid place-items-center"><i class="fa-solid fa-location-dot"></i></div><div><p class="font-display font-bold text-slate-900">Hecho en Vigo</p><p class="text-xs text-slate-500">Para negocios de toda Galicia</p></div></div>
+</div>
+<div>
+<p class="text-brand font-semibold text-sm uppercase tracking-widest">Sobre nosotros</p>
+<h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-900 mt-3 mb-6">Webs rápidas, sin complicaciones</h2>
+<p class="leading-relaxed mb-4">WEBFY nació en Vigo con una idea sencilla: que cualquier autónomo o pyme pueda tener una web profesional sin esperar semanas ni pagar de más. Detrás está Samuel, diseñador web que atiende personalmente cada proyecto.</p>
+<p class="leading-relaxed mb-8">Creemos en el diseño limpio y minimalista: menos ruido, más claridad y una web que convierte visitas en clientes. Hablamos contigo en un lenguaje claro y no te dejamos solo después de entregar.</p>
+<ul class="space-y-3 text-sm">
+<li><i class="fa-solid fa-check text-brand mr-3"></i>Trato directo con el diseñador, sin intermediarios</li>
+<li><i class="fa-solid fa-check text-brand mr-3"></i>Precios claros y sin sorpresas</li>
+<li><i class="fa-solid fa-check text-brand mr-3"></i>Revisiones hasta que estés 100% satisfecho</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas" class="py-24">
+<div class="max-w-7xl mx-auto px-5">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<p class="text-brand font-semibold text-sm uppercase tracking-widest">Reseñas verificadas</p>
+<h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-900 mt-3">Lo que dicen nuestros clientes</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="mb-6 leading-relaxed">“Le pedí la web un lunes por la mañana y el martes ya estaba online. Increíble la rapidez y el resultado, muy limpia y profesional.”</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-brand-soft text-brand grid place-items-center font-bold">MF</div><div><p class="font-semibold text-slate-900 text-sm">María Fernández</p><p class="text-xs text-slate-500">Clínica de fisioterapia · Vigo</p></div></div></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="mb-6 leading-relaxed">“Samuel entendió justo lo que necesitaba para mi restaurante. Desde la web recibo reservas cada semana. Muy recomendable.”</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-brand-soft text-brand grid place-items-center font-bold">CR</div><div><p class="font-semibold text-slate-900 text-sm">Carlos Rodríguez</p><p class="text-xs text-slate-500">Restaurante · Nigrán</p></div></div></div>
+<div class="card bg-white border border-slate-200 rounded-2xl p-8"><div class="text-amber-400 mb-4"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p class="mb-6 leading-relaxed">“Trato cercano, precio justo y siempre responde enseguida. Me resolvió todas las dudas y la tienda online funciona de maravilla.”</p><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-brand-soft text-brand grid place-items-center font-bold">LP</div><div><p class="font-semibold text-slate-900 text-sm">Lucía Pereira</p><p class="text-xs text-slate-500">Tienda de moda · Vigo</p></div></div></div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-24 bg-slate-50">
+<div class="max-w-3xl mx-auto px-5">
+<div class="text-center mb-12">
+<p class="text-brand font-semibold text-sm uppercase tracking-widest">FAQ</p>
+<h2 class="font-display font-extrabold text-3xl md:text-4xl text-slate-900 mt-3">Preguntas frecuentes</h2>
+</div>
+<div class="space-y-4">
+<details class="bg-white border border-slate-200 rounded-2xl p-6"><summary class="flex justify-between items-center font-display font-semibold text-slate-900">¿De verdad entregáis en menos de 24 horas?<i class="fa-solid fa-chevron-down chev text-brand text-sm"></i></summary><p class="mt-4 text-sm leading-relaxed">Sí. Una vez recibimos tu información básica (logotipo, textos o ideas), tu web queda lista para publicar en menos de 24 horas.</p></details>
+<details class="bg-white border border-slate-200 rounded-2xl p-6"><summary class="flex justify-between items-center font-display font-semibold text-slate-900">¿Cuánto cuesta una página web?<i class="fa-solid fa-chevron-down chev text-brand text-sm"></i></summary><p class="mt-4 text-sm leading-relaxed">Depende del tipo de proyecto. Te enviamos un presupuesto cerrado y sin compromiso, sin costes ocultos.</p></details>
+<details class="bg-white border border-slate-200 rounded-2xl p-6"><summary class="flex justify-between items-center font-display font-semibold text-slate-900">¿Necesito tener los textos y las fotos?<i class="fa-solid fa-chevron-down chev text-brand text-sm"></i></summary><p class="mt-4 text-sm leading-relaxed">No es imprescindible. Si no los tienes, te ayudamos a redactar los contenidos y a seleccionar imágenes profesionales.</p></details>
+<details class="bg-white border border-slate-200 rounded-2xl p-6"><summary class="flex justify-between items-center font-display font-semibold text-slate-900">¿Podré modificar la web más adelante?<i class="fa-solid fa-chevron-down chev text-brand text-sm"></i></summary><p class="mt-4 text-sm leading-relaxed">Por supuesto. Puedes pedirnos cambios en cualquier momento o contratar un plan de mantenimiento.</p></details>
+<details class="bg-white border border-slate-200 rounded-2xl p-6"><summary class="flex justify-between items-center font-display font-semibold text-slate-900">¿Trabajáis con negocios fuera de Vigo?<i class="fa-solid fa-chevron-down chev text-brand text-sm"></i></summary><p class="mt-4 text-sm leading-relaxed">Sí
