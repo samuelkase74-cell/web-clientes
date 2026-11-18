@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JABVigo | Reparaciones en general en Vigo</title>
+<meta name="description" content="JABVigo: reparaciones en general en Valladares, Vigo. 5 años de experiencia, trabajo garantizado y presupuesto sin compromiso. Llama al +34 654 987 789.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script>
+tailwind.config={theme:{extend:{fontFamily:{display:['"Plus Jakarta Sans"','sans-serif'],body:['Inter','sans-serif']},colors:{gold:{300:'#f1d98a',400:'#e4c25c',500:'#d4af37',600:'#b8942a'},ink:{900:'#070707',800:'#0e0e0e',700:'#161616',600:'#1f1f1f'}}}}}
+</script>
+<style>
+body{font-family:'Inter',sans-serif;background:#070707;color:#d6d3cc}
+h1,h2,h3,h4,.font-display{font-family:'Plus Jakarta Sans',sans-serif}
+.gold-text{background:linear-gradient(120deg,#f1d98a,#d4af37 50%,#b8942a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gold-bg{background:linear-gradient(120deg,#f1d98a,#d4af37 55%,#b8942a)}
+.card{background:linear-gradient(180deg,#141414,#0c0c0c);border:1px solid rgba(212,175,55,.15);transition:.35s}
+.card:hover{border-color:rgba(212,175,55,.6);transform:translateY(-6px);box-shadow:0 20px 50px -20px rgba(212,175,55,.35)}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details[open] .plus{transform:rotate(45deg)}
+.plus{transition:.3s}
+input,textarea,select{background:#0e0e0e;border:1px solid #2a2a2a;color:#fff;transition:.2s}
+input:focus,textarea:focus,select:focus{outline:none;border-color:#d4af37;box-shadow:0 0 0 3px rgba(212,175,55,.15)}
+.gal img{transition:transform .7s}
+.gal:hover img{transform:scale(1.07)}
+.modal{display:none}.modal.open{display:flex}
+</style>
+</head>
+<body class="antialiased">
+
+<!-- HEADER -->
+<header class="fixed top-0 inset-x-0 z-50 bg-ink-900/85 backdrop-blur-lg border-b border-gold-500/20">
+<div class="max-w-7xl mx-auto px-5 h-20 flex items-center justify-between">
+<a href="#inicio" class="flex items-center gap-3">
+<img src="https://storage.tally.so/private/Captura-de-pantalla-2026-10-06-225810.png?id=de5Vgq&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRlNVZncSIsImZvcm1JZCI6ImJaZUx2NyIsImlhdCI6MTc5NTAwNTkyNX0.NupVxzHhocCVGIsCl2uFPvLzJvH4Fw-Pk-vaMccAsu4&signature=f1cb232f46c19893f1df60c684e1910b25e919cda19302795da8ba107dc46e98" alt="Logotipo JABVigo" class="h-12 w-12 rounded-full object-cover border border-gold-500/50" onerror="this.style.display='none'">
+<span class="font-display font-extrabold text-xl tracking-tight text-white">JAB<span class="gold-text">Vigo</span></span>
+</a>
+<nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-stone-300">
+<a href="#servicios" class="hover:text-gold-400 transition">Servicios</a>
+<a href="#trabajos" class="hover:text-gold-400 transition">Trabajos</a>
+<a href="#nosotros" class="hover:text-gold-400 transition">Nosotros</a>
+<a href="#resenas" class="hover:text-gold-400 transition">Reseñas</a>
+<a href="#faq" class="hover:text-gold-400 transition">FAQ</a>
+<a href="#contacto" class="hover:text-gold-400 transition">Contacto</a>
+</nav>
+<div class="flex items-center gap-3">
+<a href="tel:+34654987789" class="gold-bg text-black font-display font-bold text-sm px-5 py-3 rounded-full hover:scale-105 transition flex items-center gap-2"><i class="fa-solid fa-phone"></i><span class="hidden sm:inline">654 987 789</span><span class="sm:hidden">Llamar</span></a>
+<button id="menuBtn" class="lg:hidden text-gold-400 text-2xl w-10" aria-label="Menú"><i class="fa-solid fa-bars"></i></button>
+</div>
+</div>
+<div id="mobileMenu" class="hidden lg:hidden bg-ink-900 border-t border-gold-500/20 px-5 py-4 space-y-3 text-stone-200">
+<a href="#servicios" class="block">Servicios</a><a href="#trabajos" class="block">Trabajos</a><a href="#nosotros" class="block">Nosotros</a><a href="#resenas" class="block">Reseñas</a><a href="#faq" class="block">FAQ</a><a href="#contacto" class="block">Contacto</a>
+</div>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=2000&q=80" alt="Técnico realizando reparaciones" class="absolute inset-0 w-full h-full object-cover">
+<div class="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/40"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-ink-900 via-transparent to-transparent"></div>
+<div class="relative max-w-7xl mx-auto px-5 py-20">
+<div class="max-w-3xl">
+<span class="inline-flex items-center gap-2 border border-gold-500/40 bg-gold-500/10 text-gold-300 text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-7"><i class="fa-solid fa-medal"></i> 5 años de experiencia en Vigo</span>
+<h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-7xl leading-[1.05] text-white">Lo que se rompe, <span class="gold-text">lo dejamos como nuevo.</span></h1>
+<p class="mt-7 text-lg sm:text-xl text-stone-300 max-w-2xl font-light">Reparaciones en general para tu hogar y negocio en Valladares y toda la zona de Vigo. Trabajo limpio, rápido y con garantía. Sin sorpresas en el precio.</p>
+<div class="mt-10 flex flex-col sm:flex-row gap-4">
+<a href="tel:+34654987789" class="gold-bg text-black font-display font-bold px-8 py-4 rounded-full text-center hover:scale-105 transition shadow-xl shadow-gold-500/20"><i class="fa-solid fa-phone mr-2"></i>Llamar / Reservar ahora</a>
+<a href="#contacto" class="border border-gold-500/60 text-gold-300 font-display font-bold px-8 py-4 rounded-full text-center hover:bg-gold-500 hover:text-black transition"><i class="fa-regular fa-file-lines mr-2"></i>Pedir presupuesto</a>
+</div>
+<div class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-stone-400">
+<span><i class="fa-solid fa-circle-check text-gold-500 mr-2"></i>Presupuesto sin compromiso</span>
+<span><i class="fa-solid fa-circle-check text-gold-500 mr-2"></i>Trabajo garantizado</span>
+<span><i class="fa-solid fa-circle-check text-gold-500 mr-2"></i>Lunes a viernes, 9–17h</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CONFIANZA -->
+<section class="relative -mt-2 border-y border-gold-500/20 bg-ink-800">
+<div class="max-w-7xl mx-auto px-5 py-12 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+<div><div class="font-display font-extrabold text-4xl gold-text">5+</div><p class="text-sm text-stone-400 mt-1">Años de experiencia</p></div>
+<div><div class="font-display font-extrabold text-4xl gold-text">+600</div><p class="text-sm text-stone-400 mt-1">Reparaciones realizadas</p></div>
+<div><div class="font-display font-extrabold text-4xl gold-text">98%</div><p class="text-sm text-stone-400 mt-1">Clientes satisfechos</p></div>
+<div><div class="font-display font-extrabold text-4xl gold-text">24h</div><p class="text-sm text-stone-400 mt-1">Respuesta a presupuestos</p></div>
+</div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-24 bg-ink-900">
+<div class="max-w-7xl mx-auto px-5">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-gold-500 text-xs font-bold tracking-[.3em] uppercase">Servicios</span>
+<h2 class="font-display font-extrabold text-3xl sm:text-5xl text-white mt-3">Soluciones para <span class="gold-text">cada avería</span></h2>
+<p class="mt-4 text-stone-400">Reserva online tu servicio y paga con tarjeta de forma segura. Precios orientativos, IVA incluido.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<div class="card rounded-2xl p-8">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Reparaciones del hogar</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Puertas, persianas, cerraduras, muebles, estanterías y pequeños arreglos que marcan la diferencia.</p>
+<div class="mt-6 flex items-end justify-between"><div><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">35€</div></div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Reparaciones del hogar" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Reparaciones del hogar" data-price="35" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+<div class="card rounded-2xl p-8">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-bolt"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Electricidad básica</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Cambio de enchufes, interruptores, lámparas y puntos de luz. Revisión de pequeñas incidencias.</p>
+<div class="mt-6"><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">45€</div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Electricidad básica" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Electricidad básica" data-price="45" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+<div class="card rounded-2xl p-8">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-faucet-drip"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Fontanería y fugas</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Grifos, sifones, cisternas, juntas y goteos. Solucionamos la fuga antes de que sea un problema mayor.</p>
+<div class="mt-6"><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">50€</div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Fontanería y fugas" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Fontanería y fugas" data-price="50" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+<div class="card rounded-2xl p-8">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-paint-roller"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Pintura y acabados</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Retoques, sellado de humedades, alisado y pintura de estancias con acabado profesional.</p>
+<div class="mt-6"><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">60€</div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Pintura y acabados" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Pintura y acabados" data-price="60" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+<div class="card rounded-2xl p-8">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-hammer"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Montaje de muebles</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Montaje y anclaje de armarios, cocinas, camas, televisores y estanterías con total precisión.</p>
+<div class="mt-6"><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">40€</div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Montaje de muebles" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Montaje de muebles" data-price="40" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+<div class="card rounded-2xl p-8 border-gold-500/50">
+<div class="w-14 h-14 rounded-xl gold-bg text-black grid place-items-center text-xl mb-6"><i class="fa-solid fa-magnifying-glass"></i></div>
+<h3 class="font-display font-bold text-xl text-white">Visita y diagnóstico</h3>
+<p class="text-stone-400 text-sm mt-3 min-h-[60px]">Vamos a tu domicilio, evaluamos la avería y te damos presupuesto cerrado. Se descuenta si aceptas la reparación.</p>
+<div class="mt-6"><span class="text-xs text-stone-500">Desde</span><div class="font-display font-extrabold text-3xl gold-text">20€</div></div>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<button data-service="Visita y diagnóstico" class="book border border-gold-500/50 text-gold-300 text-sm font-semibold py-3 rounded-full hover:bg-gold-500 hover:text-black transition">Reservar</button>
+<button data-service="Visita y diagnóstico" data-price="20" class="pay gold-bg text-black text-sm font-bold py-3 rounded-full hover:scale-105 transition"><i class="fa-regular fa-credit-card mr-1"></i>Pagar</button>
+</div></div>
+
+</div>
+<p class="text-center text-xs text-stone-500 mt-8">* Precios orientativos. El importe final depende del trabajo y materiales, siempre acordado previamente.</p>
+</div>
+</section>
+
+<!-- GALERÍA -->
+<section id="trabajos" class="py-24 bg-ink-800">
+<div class="max-w-7xl mx-auto px-5">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-gold-500 text-xs font-bold tracking-[.3em] uppercase">Trabajos realizados</span>
+<h2 class="font-display font-extrabold text-3xl sm:text-5xl text-white mt-3">El detalle <span class="gold-text">habla por nosotros</span></h2>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+<figure class="gal relative overflow-hidden rounded-2xl aspect-[3/4] col-span-1">
+<img src="https://storage.tally.so/private/Captura-de-pantalla-2026-10-08-144732.png?id=bQ0Ggg&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJRMEdnZyIsImZvcm1JZCI6ImJaZUx2NyIsImlhdCI6MTc5NTAwNTkyNX0.tY1wA-xhQ5h2uBTGfD5RCLNvAh8Hbk0kiN5WS2pOSMw&signature=119d04e80a1552a5ad24580d1525ab337a4227aed230f190d30d3b7319fe7b2d" alt="Trabajo realizado por JABVigo" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80'">
+<figcaption class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black to-transparent text-sm text-white font-medium">Reparación a medida</figcaption>
+</figure>
+<figure class="gal relative overflow-hidden rounded-2xl aspect-[3/4]">
+<img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" alt="Instalación eléctrica" class="w-full h-full object-cover">
+<figcaption class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black to-transparent text-sm text-white font-medium">Instalación eléctrica</figcaption>
+</figure>
+<figure class="gal relative overflow-hidden rounded-2xl aspect-[3/4]">
+<img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Reparación de fontanería" class="w-full h-full object-cover">
+<figcaption class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black to-transparent text-sm text-white font-medium">Fontanería y baños</figcaption>
+</figure>
+<figure class="gal relative overflow-hidden rounded-2xl aspect-[3/4]">
+<img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80" alt="Pintura y reformas" class="w-full h-full object-cover">
+<figcaption class="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black to-transparent text-sm text-white font-medium">Pintura y acabados</figca
